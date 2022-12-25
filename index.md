@@ -10,20 +10,22 @@ summary: These instructions will help you get started quickly with processing ou
 
 {% include note.html content="If you're using this help systek, you're probably processing out-of-region LTC files." %}
 
-## Create shortcuts to folders
+## Create your own shortcuts
 
 Follow these instructions to create shortcuts in Windows explorer.
 
 ### 1. Navigate to folder
 
-First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
+In M drive, navigate to the folder you want to create a shortcut.
 
-### 2. Install Jekyll
+```
+You can't create a shortcut to files.
+```
 
-If you've never installed or run a Jekyll site locally on your computer, follow these instructions to install Jekyll:
+### 2. Click **Home** and then click **Pin to Quick Access**.
 
-* [Install Jekyll on Mac][mydoc_install_jekyll_on_mac]
-* [Install Jekyll on Windows][mydoc_install_jekyll_on_windows]
+The folder displays under **Quick Access**. Note the pin to the right of the folder.
+
 
 ### 3. Install Bundler
 
