@@ -101,7 +101,7 @@ The `permalink` value should be the same as your filename and include the ".html
 
 For more detail, see [Pages][mydoc_pages].
 
-## Where to store your documentation topics
+## Instructions - Where to store your documentation topics
 
 You can store your files for each product inside subfolders following the pattern shown in the theme. For example, product1, product2, etc, can be stored in their own subfolders inside the \_pages directory. Inside \_pages, you can store your topics inside sub-subfolders or sub-sub-folders to your heart's content. When Jekyll builds your site, it will pull the topics into the root directory and use the permalink for the URL.
 
@@ -109,7 +109,7 @@ Note that product1, product2, and mydoc are all just sample content to demonstra
 
 For more information, see [Pages][mydoc_pages] and [Posts][mydoc_posts].
 
-## Configure the top navigation
+## Instructions - Configure the top navigation
 
 The top navigation bar's menu items are set through the \_data/topnav.yml file. Use the top navigation bar to provide links for navigating from one product to another, or to navigate to external resources.
 
@@ -117,7 +117,7 @@ For external URLs, use `external_url` in the item property, as shown in the exam
 
 Note that the topnav has two sections: `topnav` and `topnav_dropdowns`. The topnav section contains single links, while the `topnav_dropdowns` section contains dropdown menus. The two sections are independent of each other.
 
-## Generating PDF
+## Instructions - Generating PDF
 
 If you want to generate PDF, you'll need a license for [Prince XML](http://www.princexml.com/). You will also need to [install Prince](http://www.princexml.com/doc/installing/).  You can generate PDFs by product (but not for every product on the site combined together into one massive PDF). Prince will work even without a license, but it will imprint a small Prince image on the first page, and you're supposed to buy the license to use it.
 
@@ -127,7 +127,7 @@ Open up the css/printstyles.css file and customize the email address (`youremail
 
 See the section on [Generating PDFs][mydoc_generating_pdfs] for more details about setting the theme up for this output.
 
-## Blogs / News
+## Instructions - Blogs / News
 
 For blog posts, create your markdown files in the \_posts folder following the sample formats. Post file names always begin with the date (YYYY-MM-DD-title).
 
@@ -135,7 +135,7 @@ The news/news.html file displays the posts, and the news_archive.html file shows
 
 See [Posts][mydoc_posts] for more information.
 
-## Markdown
+## Instsructions - Markdown
 
 This theme uses [kramdown markdown](http://kramdown.gettalong.org/). kramdown is similar to Github-flavored Markdown, except that when you have text that intercepts list items, the spacing of the intercepting text must align with the spacing of the first character after the space of a numbered list item. Basically, with your list item numbering, use two spaces after the dot in the number, like this:
 
