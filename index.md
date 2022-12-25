@@ -8,7 +8,7 @@ summary: These instructions will help you get started quickly with processing ou
 
 ---
 
-{% include note.html content="If you're using this help systek, you're probably processing out-of-region LTC files." %}
+{% include note.html content="If you're using this help system, you're probably processing out-of-region LTC files." %}
 
 ## Create your own shortcuts
 
@@ -26,7 +26,7 @@ In M or N drive, navigate to the folder you want to create a shortcut.
 You can't create a shortcut to files.
 ```
 
-### 2. Click **Home** and then click **Pin to Quick Access**.
+### 3. Click **Home** and then click **Pin to Quick Access**.
 
 The folder displays under **Quick Access**. Note the pin to the right of the folder.
 
