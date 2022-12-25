@@ -39,19 +39,19 @@ This section provides instructions for reviewing new referrals.
 Prioritize acute referrals, then referrals with the oldest waitlist or receipt date (whichever comes first)
 ```
 
-### Complete the checklist
+### 1. Complete the checklist
 
 Using the checklist, go through the referral pack to ensure it's complete. Mark down missing documents and request same from referrer.
 
 Verify waitlist date.
 
-### Evaluate referral
+### 2. Evaluate referral
 
 ```
 Make sure to complete the OOR template.
 ```
 
-## Organize file using PDF file management
+### 3. Organize file using PDF file management
 
 Split files according to logical groups and then save in folder. Use descriptive file names.
 
@@ -60,68 +60,6 @@ Split files according to logical groups and then save in folder. Use descriptive
 
 ## Complete final checks in pathways and PARIS
 
-
-```yaml
-entries:
-- title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
-  folders:
-  - title: Overview
-    output: web, pdf
-    folderitems:
-
-    -
-
-  - title: Release Notes
-    output: web, pdf
-    folderitems:
-
-    - title: 6.0 Release notes
-      url: /mydoc_release_notes_60.html
-      output: web, pdf
-
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
-
-  - title: Installation
-    output: web, pdf
-    folderitems:
-
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_about_ruby_gems_etc.html
-      output: web, pdf
-
-    - title: Install Jekyll on Mac
-      url: /mydoc_install_jekyll_on_mac.html
-      output: web, pdf
-
-    - title: Install Jekyll on Windows
-      url: /mydoc_install_jekyll_on_windows.html
-      output: web, pdf
-```
-
-To accommodate the title page and table of contents in PDF outputs, each product sidebar must list these pages before any other:
-
-```yaml
-- title:
-  output: pdf
-  type: frontmatter
-  folderitems:
-  - title:
-    url: /titlepage
-    output: pdf
-    type: frontmatter
-  - title:
-    url: /tocpage
-    output: pdf
-    type: frontmatter
-```
-
-Leave the output as `output: pdf` for these frontmatter pages so that they don't appear in the web output.
-
-For more detail on the sidebar, see [Sidebar navigation][mydoc_sidebar_navigation] and [YAML tutorial][mydoc_yaml_tutorial].
 
 ## Comments
 
