@@ -35,7 +35,8 @@ The folder displays under **Quick Access**. Note the pin to the right of the fol
 
 This section provides instructions for reviewing new referrals.
 
-```Prioritize acute referrals, then referrals with the oldest waitlist or receipt date (whichever comes first)
+```
+Prioritize acute referrals, then referrals with the oldest waitlist or receipt date (whichever comes first)
 ```
 
 ## Complete the checklist
